@@ -1,0 +1,42 @@
+<div class="main_div">
+    <!-- <div class="row">
+        <div class="col-2 firstDiv">
+            This is first column...
+        </div>
+        <div class="col-8 secDiv">
+            This is second column...
+        </div>
+        <div class="col-2 thirdDiv">
+            This is third column...
+        </div>
+    </div> -->
+    <div class="card">
+        <div class="center">
+            <h3>Login</h3>
+        </div>
+        <form [formGroup]="userForm">
+            <div class="row justify-content-center">
+                <div class="col-8 m-2">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control" formControlName="email">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8 m-2">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="form-control" formControlName="password">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8 m-2">
+                    <button class="btn btn-secondary" style="width: 100%;" (click)="loginUser()">Login</button>
+                </div>
+            </div>
+        </form>
+        <div class="row justify-content-center">
+            <div class="col-8" style="text-align: right;">
+                <a href="/forgotpassword">Forgot password?</a>
+            </div>
+        </div>
+    </div>
+</div>

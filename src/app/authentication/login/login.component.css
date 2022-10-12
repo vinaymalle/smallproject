@@ -1,0 +1,27 @@
+.firstDiv{
+    background-color: aqua;
+}
+.secDiv{
+    background-color:brown
+}
+.thirdDiv{
+    background-color:chocolate;
+}
+.main_div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../../../assets/bg.jpg');
+    background-size: cover;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
