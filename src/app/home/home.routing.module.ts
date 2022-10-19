@@ -10,10 +10,10 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
     children: [
-      // {
-      //   path: 'dashboard',
-      //   component: DashboardComponent
-      // },
+      {
+        path: 'dashboard',
+        component: DashboardComponent
+      },
       {
         path: 'user',
         component: UserComponent

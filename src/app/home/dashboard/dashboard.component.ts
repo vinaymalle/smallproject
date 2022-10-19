@@ -9,10 +9,11 @@ import { UserService } from 'src/app/services/user.service';
 export class DashboardComponent implements OnInit {
 
   constructor(private userService: UserService) { }
-
+  photos: any;
   ngOnInit(): void {
-    this.userService.getAlbums().subscribe((data) => {
+    this.userService.getAlbums().subscribe((data: any) => {
       console.log(data, ">>>>>");
+      this.photos = data;
     });
     
   }

@@ -12,9 +12,10 @@ import { UserComponent } from './user/user.component';
   declarations: [
     HomeComponent,
     HeaderComponent,
-    UserComponent
+    UserComponent,
+    DashboardComponent
   ],
-  entryComponents: [DashboardComponent],
+  // entryComponents: [DashboardComponent],
   imports: [
     CommonModule,
     HomeRoutingModule

@@ -14,9 +14,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
   logout(){
-    this.dialog.open(DashboardComponent)
-    // localStorage.clear();
-    // this.router.navigateByUrl('/login');
+    // this.dialog.open(DashboardComponent)
+    localStorage.clear();
+    this.router.navigateByUrl('/login');
     // this.router.navigate(['/login'])
   }
 }
